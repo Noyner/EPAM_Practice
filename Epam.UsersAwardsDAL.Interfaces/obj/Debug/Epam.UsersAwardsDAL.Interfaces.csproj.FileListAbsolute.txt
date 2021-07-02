@@ -1,0 +1,10 @@
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\bin\Debug\Epam.UsersAwardsDAL.Interfaces.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\bin\Debug\Epam.UsersAwards.Entities.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\bin\Debug\Epam.UsersAwards.Entities.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\obj\Debug\Epam.UsersAwardsDAL.Interfaces.csprojAssemblyReference.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\obj\Debug\Epam.UsersAwardsDAL.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\obj\Debug\Epam.UsersAwardsDAL.Interfaces.csproj.CopyComplete
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\obj\Debug\Epam.UsersAwardsDAL.Interfaces.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwardsDAL.Interfaces\obj\Debug\Epam.UsersAwardsDAL.Interfaces.pdb

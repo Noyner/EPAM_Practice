@@ -1,0 +1,13 @@
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwards.SqlDAL.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwards.SqlDAL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwards.SqlDAL.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwards.Entities.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwards.Entities.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwardsDAL.Interfaces.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.csprojAssemblyReference.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.csproj.CoreCompileInputs.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.csproj.CopyComplete
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.pdb

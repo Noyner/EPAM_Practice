@@ -1,0 +1,6 @@
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Entities\bin\Debug\Epam.UsersAwards.Entities.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Entities\bin\Debug\Epam.UsersAwards.Entities.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Entities\obj\Debug\Epam.UsersAwards.Entities.csprojAssemblyReference.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Entities\obj\Debug\Epam.UsersAwards.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Entities\obj\Debug\Epam.UsersAwards.Entities.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Entities\obj\Debug\Epam.UsersAwards.Entities.pdb

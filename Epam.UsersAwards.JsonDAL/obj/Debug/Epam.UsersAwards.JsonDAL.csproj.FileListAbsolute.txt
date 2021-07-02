@@ -1,0 +1,15 @@
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwards.JsonDAL.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwards.JsonDAL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwards.JsonDAL.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwards.Entities.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwards.Entities.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwardsDAL.Interfaces.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\obj\Debug\Epam.UsersAwards.JsonDAL.csprojAssemblyReference.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\obj\Debug\Epam.UsersAwards.JsonDAL.csproj.CoreCompileInputs.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\obj\Debug\Epam.UsersAwards.JsonDAL.csproj.CopyComplete
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\obj\Debug\Epam.UsersAwards.JsonDAL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.JsonDAL\obj\Debug\Epam.UsersAwards.JsonDAL.pdb
