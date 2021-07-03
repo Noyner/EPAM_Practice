@@ -10,7 +10,7 @@ namespace Epam.UsersAwards.SqlDAL
 {
     public class UserSqlDAO : IUserDAO
     {
-        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\ask 8.2\Users\";
+        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\EPAM_Practice\Users\";
         public void AddUser(User user)
         {
             // TODO: Add Note to my SQL Database
