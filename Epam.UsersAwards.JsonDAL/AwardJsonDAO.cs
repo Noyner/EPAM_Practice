@@ -9,8 +9,8 @@ namespace Epam.UsersAwards.JsonDAL
 {
     public class AwardJsonDAO : IAwardDAO
     {
-        public const string JSON_AWARDS_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\EPAM_Practice\Awards\";
-        public const string JSON_USERS_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\EPAM_Practice\Users\";
+        public const string JSON_AWARDS_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Awards\";
+        public const string JSON_USERS_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Users\";
         public void AddAward(Award award)
         {
             string json = JsonConvert.SerializeObject(award);

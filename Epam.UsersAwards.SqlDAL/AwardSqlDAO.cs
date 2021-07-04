@@ -8,7 +8,7 @@ namespace Epam.UsersAwards.SqlDAL
 {
     public class AwardSqlDAO
     {
-        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\EPAM_Practice\Awards\";
+        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Awards\";
         public void AddAward(Award award)
         {
             // TODO: Add Note to my SQL Database

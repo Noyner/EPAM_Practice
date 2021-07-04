@@ -22,3 +22,27 @@ C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.csproj.CopyComplete
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.Dependences.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.Dependences.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.BLL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.BLL.Interfaces.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.Entities.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.JsonDAL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.SqlDAL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.BLL.Interfaces.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.BLL.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.Entities.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.JsonDAL.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.JsonDAL.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.SqlDAL.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwards.SqlDAL.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwardsDAL.Interfaces.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Epam.UsersAwardsDAL.Interfaces.dll.config
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.csprojAssemblyReference.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.csproj.CoreCompileInputs.cache
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.csproj.CopyComplete
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.Dependences\obj\Debug\Epam.UsersAwards.Dependences.pdb
