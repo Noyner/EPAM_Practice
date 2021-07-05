@@ -24,7 +24,7 @@ namespace Epam.UsersAwards.BLL
             _userDAO.DeleteUser(id);
         }
 
-        public IList<User> AllUser()
+        public IList<User> AllUsers()
         {
             return _userDAO.AllUsers();
         }

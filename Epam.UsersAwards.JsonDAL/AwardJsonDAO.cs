@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using System;
 using System.IO;
+using System.Linq;
 
 namespace Epam.UsersAwards.JsonDAL
 {
@@ -16,7 +17,7 @@ namespace Epam.UsersAwards.JsonDAL
             string json = JsonConvert.SerializeObject(award);
             File.WriteAllText(GetAwardById(award.ID), json);
         }
-        public IList <Award> AllAward()
+        public IList <Award> AllAwards()
         {
             List<Award> awardList = new List<Award>();
             string[] files = Directory.GetFiles(JSON_AWARDS_PATH, "*.json");
@@ -25,7 +26,6 @@ namespace Epam.UsersAwards.JsonDAL
                 var jsonFull = File.ReadAllText(filename);
                 awardList.Add(JsonConvert.DeserializeObject<Award>(jsonFull));
             }
-
             return awardList;
         }
 
@@ -74,6 +74,25 @@ namespace Epam.UsersAwards.JsonDAL
         {
             if (File.Exists(GetAwardById(id)))
             {
+                string[] files = Directory.GetFiles(JSON_USERS_PATH, "*.json");
+                Award award = JsonConvert.DeserializeObject<Award>(File.ReadAllText(GetAwardById(id)));
+                foreach (string filename in files)
+                {
+                    User user = JsonConvert.DeserializeObject<User>(File.ReadAllText(filename));
+                   
+                    List<Award> copyList = user.Awards.ToList<Award>();
+                    user.Awards = new List<Award>();
+
+                    foreach(Award a in copyList)
+                    {
+                        if (a.ID != award.ID)
+                        {
+                            user.Awards.Add(a);
+                        }
+                    }
+
+                    File.WriteAllText(filename, JsonConvert.SerializeObject(user));
+                }              
                 File.Delete(GetAwardById(id));
             }
             else
