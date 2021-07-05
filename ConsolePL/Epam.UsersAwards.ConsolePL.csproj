@@ -54,10 +54,6 @@
       <Project>{64c7f2e0-ea20-4b33-8645-11ace0fc794f}</Project>
       <Name>Epam.UsersAwards.BLL.Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Epam.UsersAwards.BLL\Epam.UsersAwards.BLL.csproj">
-      <Project>{d93a8ce8-0ba8-4805-9c0d-5e6c5ab56f40}</Project>
-      <Name>Epam.UsersAwards.BLL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Epam.UsersAwards.Dependences\Epam.UsersAwards.Dependences.csproj">
       <Project>{0cc7dc49-c2b3-4120-95c0-5e11c7440689}</Project>
       <Name>Epam.UsersAwards.Dependences</Name>

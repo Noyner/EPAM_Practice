@@ -10,11 +10,12 @@ namespace Epam.UsersAwards.JsonDAL
 {
     public class UserJsonDAO : IUserDAO
     {
-        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Users\";
-        public void AddUser(User user)
+        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Users\";
+        public User AddUser(User user)
         {
             string json = JsonConvert.SerializeObject(user);
             File.WriteAllText(GetUserById(user.ID), json);
+            return user;
         }
 
         public void DeleteUser(Guid id)
@@ -26,15 +27,14 @@ namespace Epam.UsersAwards.JsonDAL
             else
             {
                 throw new FileNotFoundException(
-                    string.Format("User with ID {0} at path {1} isn`t created", id, JSON_FILES_PATH));
+                    string.Format("User with ID {} at path {1} isn`t created", id, JSON_FILES_PATH));
             }
         }
 
-        public IList<User> AllUsers()
+        public IEnumerable<User> AllUsers(bool orderedById = true)
         {
             List<User> userList = new List<User>();
 
-            
             string[] files = Directory.GetFiles(JSON_FILES_PATH, "*.json");
             foreach (string filename in files)
             {

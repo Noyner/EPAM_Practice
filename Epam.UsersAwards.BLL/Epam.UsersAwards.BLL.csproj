@@ -54,10 +54,6 @@
       <Project>{3272a0e1-b200-454a-93c6-0b2c183f5186}</Project>
       <Name>Epam.UsersAwards.Entities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Epam.UsersAwards.JsonDAL\Epam.UsersAwards.JsonDAL.csproj">
-      <Project>{1d4baf91-c556-4720-b342-72b56f67c8c9}</Project>
-      <Name>Epam.UsersAwards.JsonDAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Epam.UsersAwardsDAL.Interfaces\Epam.UsersAwardsDAL.Interfaces.csproj">
       <Project>{400fc239-7432-4404-85de-02e0a84b8243}</Project>
       <Name>Epam.UsersAwardsDAL.Interfaces</Name>

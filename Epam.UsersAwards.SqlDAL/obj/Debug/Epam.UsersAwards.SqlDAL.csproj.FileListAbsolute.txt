@@ -24,3 +24,11 @@ C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.S
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.csproj.CopyComplete
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\obj\Debug\Epam.UsersAwards.SqlDAL.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Security.Permissions.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Security.Permissions.xml
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Epam.UsersAwards.SqlDAL\bin\Debug\System.Security.Principal.Windows.xml

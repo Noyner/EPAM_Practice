@@ -9,17 +9,37 @@
 
     <h3>Список пользователей:<br /><br /></h3>
     <ul>
-        @foreach (var user in bll.AllUser())
+        @foreach (var user in bll.AllUsers())
         {
-            string awards = string.Join(" | ", user.Awards);
+            //string awards = string.Join(" | ", user.Awards);
             <li>
-                @user.Name
-                @user.Age
-                @user.DateOfBirth
-                @awards
+                <b>
+                    User:
+                    @user.Name
+                    @user.Age
+                    @user.DateOfBirth
+                    @user.ID
+                </b>
+                @if (user.Awards.Count > 0)
+                {
+                    <ul>
+                        Awards:
+                        @foreach (var award in user.Awards)
+                        {
+                            <li>
+                                @award.ToString();
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <span>No one award</span>
+                }
+
             </li>
         }
     </ul>
-  }
+}
 
 
