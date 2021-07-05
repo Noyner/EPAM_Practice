@@ -1,13 +1,13 @@
 ﻿@using Epam.UsersAwards.Dependences;
 @using Epam.UsersAwards.Entities;
 @using System;
-@{
+@using Task_8._2.Models;
 
-    Layout = null;
+@{
+    Layout = "~/Pages/Layout/_BasicLayout.cshtml";
 
     var bll = DependencyResolver.Instance.UserLogic;
     string pageName = "Users and Awards";
-    bll.AllUser();
 
 }
 <!DOCTYPE html>
@@ -17,19 +17,39 @@
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <script src="~/Scripts/jquery-3.6.0.js"></script>
     <script src="~/Scripts/bootstrap.bundle.min.js"></script>
 
-    <button id="allUsersBtn" type="button" class="btn btn-warning">All users</button>
-    <button id="allAwardsBtn" type="button" class="btn btn-warning">All awards</button>
-    <button id="addUserBtn" type="button" class="btn btn-primary">Add user</button>
-    <button id="addAwardBtn" type="button" class="btn btn-primary">Add award</button>
-    <button id="delUserBtn" type="button" class="btn btn-danger">Delete user</button>
-    <button id="delAwardBtn" type="button" class="btn btn-danger">Delete award</button>
-    <button id="giveAwardBtn" type="button" class="btn btn-success">Give award</button>
-    <button id="editUserBtn" type="button" class="btn btn-info">Edit user</button>
-    <button id="editAwardBtn" type="button" class="btn btn-info">Edit award</button>
+    @if (User.Identity.IsAuthenticated)
+    {
+        if (User.IsInRole("users"))
+        {
+            <button id="allUsersBtn" type="button" class="btn btn-warning">All users</button>
+            <button id="allAwardsBtn" type="button" class="btn btn-warning">All awards</button>
+        }
 
+        if (User.IsInRole("admin"))
+        {
+            <button id="addUserBtn" type="button" class="btn btn-primary">Add user</button>
+            <button id="addAwardBtn" type="button" class="btn btn-primary">Add award</button>
+            <button id="delUserBtn" type="button" class="btn btn-danger">Delete user</button>
+            <button id="delAwardBtn" type="button" class="btn btn-danger">Delete award</button>
+            <button id="giveAwardBtn" type="button" class="btn btn-success">Give award</button>
+            <button id="editUserBtn" type="button" class="btn btn-info">Edit user</button>
+            <button id="editAwardBtn" type="button" class="btn btn-info">Edit award</button>
+        }
+        else
+        {
+            <br />
+            <div class="alert alert-warning" role="alert">
+                Some features isn't available for users (only for admins, sorry)!
+            </div>
+        }
+        <button id="signOut" type="button" class="btn btn-warning">SignOut</button>
+    }
+    else
+    {
+        <button id="loginBtn" type="button" class="btn btn-warning">Login</button>
+    }
     <script>
         $('#allUsersBtn').click(function () {
             location.href = '/Pages/AllUser';
@@ -50,16 +70,24 @@
             location.href = '/Pages/DeleteAward';
         })
         $('#giveAwardBtn').click(function () {
-            location.href = '/Pages/EditAward';
+            location.href = '/Pages/GiveAward';
         })
         $('#editUserBtn').click(function () {
             location.href = '/Pages/EditUser';
         })
         $('#editAwardBtn').click(function () {
-            location.href = '/Pages/AllUser';
+            location.href = '/Pages/EditAward';
+        })
+        $('#loginBtn').click(function () {
+            location.href = '/Pages/SignIn';
+        })
+        $('#signOut').click(function () {
+            location.href = '/Pages/SignOut';
         })
 
     </script>
+
+
 
 </body>
 </html>

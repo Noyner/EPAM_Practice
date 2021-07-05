@@ -11,5 +11,9 @@ namespace Epam.UsersAwards.BLL.Interfaces
         IList<Award> AllAward();
 
         void GiveAward(Guid userId, Guid awardId);
+
+        void EditAward(Guid id, string newTitle);
+
+        void RemoveAward(Guid id);
     }
 }

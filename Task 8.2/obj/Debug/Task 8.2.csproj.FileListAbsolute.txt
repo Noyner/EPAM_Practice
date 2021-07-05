@@ -180,3 +180,6 @@ C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\obj\Debug
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\obj\Debug\Task 8.2.csproj.CopyComplete
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\obj\Debug\Task 8.2.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\obj\Debug\Task 8.2.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\System.Web.Mvc.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\System.Web.Mvc.xml
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\ru\System.Web.Mvc.resources.dll

@@ -11,5 +11,9 @@ namespace Epam.UsersAwardsDAL.Interfaces
         IList<Award> AllAward();
 
         void GiveAward(Guid userId, Guid awardId);
+
+        void DeleteAward(Guid id);
+
+        void EditAward(Guid id, string newTitle);
     }
 }

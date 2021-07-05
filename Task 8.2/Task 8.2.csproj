@@ -120,6 +120,8 @@
     <Content Include="Pages\EditUser.cshtml" />
     <Content Include="Pages\EditAward.cshtml" />
     <Content Include="Pages\GiveAward.cshtml" />
+    <Content Include="Pages\SignIn.cshtml" />
+    <Content Include="Pages\SignOut.cshtml" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.js" />
@@ -127,6 +129,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Auth.cs" />
+    <Compile Include="Models\RoleManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -162,7 +166,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="index.cshtml" />
-    <Content Include="UsersAndAwards.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Epam.UsersAwards.BLL.Interfaces\Epam.UsersAwards.BLL.Interfaces.csproj">
@@ -183,7 +186,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Pages\Partial\" />
   </ItemGroup>
   <PropertyGroup>

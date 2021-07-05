@@ -5,24 +5,24 @@
 @{
     Layout = "~/Pages/Layout/_BasicLayout.cshtml";
 
-    var bll = DependencyResolver.Instance.UserLogic;
+    var bll2 = DependencyResolver.Instance.AwardLogic;
 
-    Guid userId = Guid.Parse("4b1a7333-0b21-40d3-8e56-450128ee2002");
+    Guid awardId = Guid.Parse("4b1a7333-0b21-40d3-8e56-450128ee2002");
 
     if (IsPost)
     {
-        userId = Guid.Parse(Request["userId"]);
-        bll.RemoveUser(userId);
+        awardId = Guid.Parse(Request["awardId"]);
+        bll2.RemoveAward(awardId);
         Response.Redirect("~/index.cshtml");
     }
 }
 
 <form method="POST">
     <br />
-    <small id="description" class="form-text text-muted">Введите ID пользователя для его удаления</small>
+    <small id="description" class="form-text text-muted">Введите ID награды для её удаления</small>
     <div class="form-group">
-        <label for="exampleInputEmail1">User ID</label>
-        <input name="userId" type="text" class="form-control" placeholder="Enter user ID" value="@userId">
+        <label for="exampleInputEmail1">Award ID</label>
+        <input name="awardId" type="text" class="form-control" placeholder="Enter user ID" value="@awardId">
     </div>
-    <button type="submit" class="btn btn-danger">Delete user</button>
+    <button type="submit" class="btn btn-danger">Delete award</button>
 </form>

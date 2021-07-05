@@ -57,6 +57,32 @@ namespace Epam.UsersAwards.JsonDAL
             }));
         }
 
+        public void EditAward(Guid id, string newTitle)
+        {
+            if (!File.Exists(GetAwardById(id)))
+            {
+                throw new FileNotFoundException(
+                    string.Format("File with name {0} at path {1} isn`t created!",
+                    id, JSON_AWARDS_PATH));
+            }
+            Award award = JsonConvert.DeserializeObject<Award>(File.ReadAllText(GetAwardById(id)));
+            award.EditAward(newTitle);
+            File.WriteAllText(GetAwardById(id), JsonConvert.SerializeObject(award));
+        }
+
+        public void DeleteAward(Guid id)
+        {
+            if (File.Exists(GetAwardById(id)))
+            {
+                File.Delete(GetAwardById(id));
+            }
+            else
+            {
+                throw new FileNotFoundException(
+                    string.Format("Award with ID {0} at path {1} isn`t created", id, JSON_AWARDS_PATH));
+            }
+        }
+
         private string GetAwardById(Guid id) => JSON_AWARDS_PATH + id + ".json";
 
         private string GetUserById(Guid id) => JSON_USERS_PATH + id + ".json";

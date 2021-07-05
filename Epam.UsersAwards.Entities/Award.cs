@@ -24,6 +24,14 @@ namespace Epam.UsersAwards.Entities
             Users.Add(user);
         }
 
+        public void EditAward(string newTitle)
+        {
+            if (newTitle == null)
+                throw new ArgumentNullException("str", "Name cannot be null");
+
+            Title = newTitle;
+        }
+
         public override string ToString()
         {
             return $"{Title} {ID}";

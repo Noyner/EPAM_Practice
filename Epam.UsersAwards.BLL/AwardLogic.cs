@@ -29,5 +29,15 @@ namespace Epam.UsersAwards.BLL
         {
             _awardDAO.GiveAward(userId, awardId);
         }
+
+        public void EditAward(Guid id, string newTitle)
+        {
+            _awardDAO.EditAward(id, newTitle);
+        }
+
+        public void RemoveAward(Guid id)
+        {
+            _awardDAO.DeleteAward(id);
+        }
     }
 }

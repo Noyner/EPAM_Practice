@@ -26,7 +26,7 @@ namespace Epam.UsersAwards.JsonDAL
             else
             {
                 throw new FileNotFoundException(
-                    string.Format("User with ID {} at path {1} isn`t created", id, JSON_FILES_PATH));
+                    string.Format("User with ID {0} at path {1} isn`t created", id, JSON_FILES_PATH));
             }
         }
 
