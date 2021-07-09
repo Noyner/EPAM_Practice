@@ -1,12 +1,12 @@
-﻿@using Epam.UsersAwards.JsonDAL;
-@using Epam.UsersAwards.Dependences;
+﻿@using Epam.UsersAwards.Dependences;
 @using Epam.UsersAwards.Entities;
 
 @{
     Layout = "~/Pages/Layout/_BasicLayout.cshtml";
 }
+<h2> Введите название новой награды</h2>
 @{
-
+    
     var bll2 = DependencyResolver.Instance.AwardLogic;
 
     string title = null;
@@ -17,7 +17,6 @@
         bll2.AddAward(new Award(title, Guid.NewGuid()));
         Response.Redirect("~/index.cshtml");
     }
-}
 }
 <form method="POST">
     <br />

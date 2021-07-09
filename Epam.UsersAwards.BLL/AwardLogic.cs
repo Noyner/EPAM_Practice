@@ -15,12 +15,18 @@ namespace Epam.UsersAwards.BLL
             _awardDAO = awardDao;
         }
 
-        public void AddAward(Award award)
+        public void RemoveAward(Guid id)
         {
-            _awardDAO.AddAward(award);
+            _awardDAO.DeleteAward(id);
         }
 
-        public IList<Award> AllAwards()
+        public Award AddAward(Award award)
+        {
+            _awardDAO.AddAward(award);
+            return award;
+        }
+
+        public IEnumerable<Award> AllAwards()
         {
             return _awardDAO.AllAwards();
         }
@@ -33,11 +39,6 @@ namespace Epam.UsersAwards.BLL
         public void EditAward(Guid id, string newTitle)
         {
             _awardDAO.EditAward(id, newTitle);
-        }
-
-        public void RemoveAward(Guid id)
-        {
-            _awardDAO.DeleteAward(id);
         }
     }
 }

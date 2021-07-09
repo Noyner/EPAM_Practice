@@ -12,12 +12,13 @@ namespace Epam.UsersAwards.JsonDAL
     {
         public const string JSON_AWARDS_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Awards\";
         public const string JSON_USERS_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Users\";
-        public void AddAward(Award award)
+        public Award AddAward(Award award)
         {
             string json = JsonConvert.SerializeObject(award);
             File.WriteAllText(GetAwardById(award.ID), json);
+            return award;
         }
-        public IList <Award> AllAwards()
+        public IEnumerable<Award> AllAwards()
         {
             List<Award> awardList = new List<Award>();
             string[] files = Directory.GetFiles(JSON_AWARDS_PATH, "*.json");
@@ -26,6 +27,7 @@ namespace Epam.UsersAwards.JsonDAL
                 var jsonFull = File.ReadAllText(filename);
                 awardList.Add(JsonConvert.DeserializeObject<Award>(jsonFull));
             }
+
             return awardList;
         }
 

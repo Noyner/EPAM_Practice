@@ -6,14 +6,14 @@ namespace Epam.UsersAwards.BLL.Interfaces
 {
     public interface IAwardLogic
     {
-        void AddAward(Award award);
+        Award AddAward(Award award);
 
-        IList<Award> AllAwards();
+        void RemoveAward(Guid id);
+
+        IEnumerable<Award> AllAwards();
 
         void GiveAward(Guid userId, Guid awardId);
 
         void EditAward(Guid id, string newTitle);
-
-        void RemoveAward(Guid id);
     }
 }

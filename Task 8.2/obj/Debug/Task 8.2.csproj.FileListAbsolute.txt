@@ -153,8 +153,6 @@ C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Syste
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\System.Web.WebPages.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\System.Web.WebPages.Razor.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwardsDAL.Interfaces.dll
-C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.JsonDAL.dll
-C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Newtonsoft.Json.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.BLL.Interfaces.pdb
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.BLL.pdb
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.Dependences.pdb
@@ -167,9 +165,6 @@ C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Syste
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwardsDAL.Interfaces.pdb
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwardsDAL.Interfaces.dll.config
-C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.JsonDAL.pdb
-C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.JsonDAL.dll.config
-C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Newtonsoft.Json.xml
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\ru\System.Web.Helpers.resources.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\ru\System.Web.Razor.resources.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\ru\System.Web.WebPages.resources.dll
@@ -183,3 +178,6 @@ C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\obj\Debug
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\System.Web.Mvc.dll
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\System.Web.Mvc.xml
 C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.SqlDAL.dll
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.SqlDAL.pdb
+C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\EPAM_Practice\Task 8.2\bin\Epam.UsersAwards.SqlDAL.dll.config
