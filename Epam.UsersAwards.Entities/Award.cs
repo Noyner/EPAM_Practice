@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Epam.UsersAwards.Entities
 {
@@ -27,7 +24,7 @@ namespace Epam.UsersAwards.Entities
         public void EditAward(string newTitle)
         {
             if (newTitle == null)
-                throw new ArgumentNullException("str", "Name cannot be null");
+                throw new ArgumentNullException(nameof(newTitle), "Name cannot be null");
 
             Title = newTitle;
         }

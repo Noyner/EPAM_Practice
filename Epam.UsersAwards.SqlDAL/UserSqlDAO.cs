@@ -13,8 +13,6 @@ namespace Epam.UsersAwards.SqlDAL
     {
         public string _connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
        
-
-        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\ask 8.2\Users\";
         public User AddUser(User user)
         {
             using (var _connection = new SqlConnection(_connectionString))
@@ -73,7 +71,6 @@ namespace Epam.UsersAwards.SqlDAL
 
         public void DeleteUser(Guid id)
         {
-            //var connect = new SqlConnection(@"Data Source=HOME-PC\SQLEXPRESS;Initial Catalog=UsersAndAwards;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             string sql = $"Delete From Users Where Id='{id}'";
             using (var _connection = new SqlConnection(_connectionString))
             {
@@ -132,7 +129,6 @@ namespace Epam.UsersAwards.SqlDAL
                 return list;
             }
         }
-
         public void EditUser(Guid id, string newName, DateTime newDateTimeOfBirth, int newAge)
         {
             using (var _connection = new SqlConnection(_connectionString))
@@ -156,7 +152,5 @@ namespace Epam.UsersAwards.SqlDAL
                 }
             }
         }
-
-        private string GetUserById(Guid id) => JSON_FILES_PATH + id + ".json";
     }
 }

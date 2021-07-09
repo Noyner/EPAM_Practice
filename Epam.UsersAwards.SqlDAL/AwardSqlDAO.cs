@@ -11,7 +11,6 @@ namespace Epam.UsersAwards.SqlDAL
     public class AwardSqlDAO : IAwardDAO
     {
         public string _connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
-        public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\Task 8.2\Awards\";
         public Award AddAward(Award award)
         {
             using (var _connection = new SqlConnection(_connectionString))
@@ -26,9 +25,7 @@ namespace Epam.UsersAwards.SqlDAL
                 _connection.Open();
                 command.ExecuteNonQuery();
 
-                return new Award(
-                        id: award.ID,
-                        title: award.Title);
+                return new Award(id: award.ID, title: award.Title);
             }
         }
 
@@ -46,9 +43,7 @@ namespace Epam.UsersAwards.SqlDAL
 
                 while (reader.Read())
                 {
-                    yield return new Award(
-                        id: (Guid)reader["Id"],
-                        title: reader["Title"] as string);
+                    yield return new Award(id: (Guid)reader["Id"],title: reader["Title"] as string);
                 }
             }
         }
@@ -66,7 +61,6 @@ namespace Epam.UsersAwards.SqlDAL
             }
 
         }
-
         public void EditAward(Guid id, string newTitle)
         {
             using (var _connection = new SqlConnection(_connectionString))
@@ -90,7 +84,6 @@ namespace Epam.UsersAwards.SqlDAL
                 }
             }
         }
-
         public void GiveAward(Guid userId, Guid awardId)
         {
             using (var _connection = new SqlConnection(_connectionString))
