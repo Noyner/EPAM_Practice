@@ -6,14 +6,15 @@ namespace Epam.UsersAwardsDAL.Interfaces
 {
     public interface IAwardDAO
     {
-        void AddAward(Award award);
-
-        IList<Award> AllAwards();
-
-        void GiveAward(Guid userId, Guid awardId);
+        Award AddAward(Award award);
 
         void DeleteAward(Guid id);
 
         void EditAward(Guid id, string newTitle);
+
+        IEnumerable<Award> AllAwards();
+
+        void GiveAward(Guid userId, Guid awardId);
+
     }
 }
