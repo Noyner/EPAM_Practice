@@ -9,11 +9,10 @@ namespace Epam.UsersAwards.Dependences
 {
     public class DependencyResolver
     {
-        #region SINGLETONE
         private static DependencyResolver _instance;
 
         public static DependencyResolver Instance => new DependencyResolver();
-        #endregion
+
 
         public IUserDAO UserDAO => new UserSqlDAO();
 

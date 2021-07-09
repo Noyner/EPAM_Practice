@@ -12,7 +12,7 @@ namespace Epam.UsersAwards.SqlDAL
     public class UserSqlDAO : IUserDAO
     {
         public string _connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
-        //public static SqlConnection _connection = new SqlConnection(@"Data Source=HOME-PC\SQLEXPRESS;Initial Catalog=UsersAndAwards;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+       
 
         public const string JSON_FILES_PATH = @"C:\Users\Sgt.Pepper\Desktop\Study\EPAM\EPAM_Rep\Task 8\ask 8.2\Users\";
         public User AddUser(User user)
